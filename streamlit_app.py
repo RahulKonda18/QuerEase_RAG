@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 import numpy as np
 from sentence_transformers import SentenceTransformer  # Import the embedding model
 import chromadb  # Import ChromaDB client
@@ -6,8 +7,10 @@ from llama import generate_response
 # Initialize the embedding model
 embedding_model = SentenceTransformer('all-MiniLM-L6-v2')  # Replace with your desired model
 
+db_path = os.path.abspath("./chroma_db")
+client = chromadb.PersistentClient(path=db_path)
+
 # Initialize ChromaDB client and collection using the new configuration
-client = chromadb.PersistentClient(path="./chroma_db")
 collection = client.get_or_create_collection(name="rag_docs")  # Replace with your collection name
 
 # Streamlit UI
