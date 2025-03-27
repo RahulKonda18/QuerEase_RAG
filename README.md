@@ -2,7 +2,6 @@
 
 QuerEase is an advanced AI-powered FAQ chatbot that utilizes **Retrieval-Augmented Generation (RAG)** to provide accurate and context-aware responses. It combines **Chroma DB** for vector storage, **LLama2-70B-Chat by Together-AI** for response generation, and **Sentence Transformers (ALL-Mini-LM6-v2)** for embedding generation. The chatbot interface is built using **Streamlit**, offering a seamless user experience.
 
----
 
 ## 🚀 Features
 
@@ -12,7 +11,7 @@ QuerEase is an advanced AI-powered FAQ chatbot that utilizes **Retrieval-Augment
 - **Sentence-Transformers all-MiniLM-L6-v2** for text embeddings.
 - **Streamlit-based Chatbot UI** for an interactive experience.
 
----
+
 
 ## 🛠️ Installation & Setup
 
@@ -39,7 +38,6 @@ QuerEase is an advanced AI-powered FAQ chatbot that utilizes **Retrieval-Augment
    streamlit run streamlit_app.py
    ```
 
----
 
 ## 📌 Tech Stack & Keywords
 
