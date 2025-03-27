@@ -11,6 +11,7 @@ QuerEase is an advanced AI-powered FAQ chatbot that utilizes **Retrieval-Augment
 - **Sentence-Transformers all-MiniLM-L6-v2** for text embeddings.
 - **Streamlit-based Chatbot UI** for an interactive experience.
 
+https://drive.google.com/file/d/1Hc4IOLVrs313mqk4x3jxPTVYXNsm96xR/view?usp=sharing
 
 
 ## 🛠️ Installation & Setup
